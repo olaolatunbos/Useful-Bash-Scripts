@@ -1,1 +1,0 @@
-# Useful-Bash-Scripts

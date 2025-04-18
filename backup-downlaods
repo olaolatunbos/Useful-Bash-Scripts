@@ -3,7 +3,7 @@
 # === CONFIG ===
 SOURCE_DIR="$HOME/Downloads"
 BACKUP_DIR="$HOME/Backups/Downloads"
-TIMESTAMP=$(date) 
+TIMESTAMP=$(date +"%Y-%m-%d-%H%M%S") 
 BACKUP_NAME="downloads-backup-$TIMESTAMP.tar.bz2"
 LOG_FILE="$BACKUP_DIR/backup.log"
 
